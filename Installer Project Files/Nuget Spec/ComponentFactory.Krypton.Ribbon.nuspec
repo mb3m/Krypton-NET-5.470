@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ComponentFactory.Krypton.Ribbon</id>
-    <version>6.0.0-pre001</version>
+    <version>6.0.0-pre002</version>
     <title>Krypton Ribbon Library</title>
     <authors>Peter William Wagner &amp; Simon Coghlan</authors>
     <owners>Peter William Wagner &amp; Simon Coghlan</owners>
@@ -17,7 +17,7 @@
     <language>en-US</language>
     <tags>Krypton, ComponentFactory, WinForms, Themes, Controls, DataGrid, Ribbon, Workspace, Tabs, .Net, Docking</tags>
     <dependencies>
-      <dependency id="ComponentFactory.Krypton.Toolkit" version="6.0.0-pre001" />
+      <dependency id="ComponentFactory.Krypton.Toolkit" version="6.0.0-pre002" />
     </dependencies>
   </metadata>
   <files>

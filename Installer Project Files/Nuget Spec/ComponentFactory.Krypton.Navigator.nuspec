@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>ComponentFactory.Krypton.Navigator</id>
-    <version>6.0.0-pre001</version>
+    <version>6.0.0-pre002</version>
     <title>Krypton Navigator Library</title>
     <authors>Peter William Wagner &amp; Simon Coghlan</authors>
     <owners>Peter William Wagner &amp; Simon Coghlan</owners>
@@ -17,11 +17,11 @@
     <language>en-US</language>
     <tags>Krypton, ComponentFactory, WinForms, Themes, Controls, DataGrid, Ribbon, Workspace, Tabs, .Net, Docking</tags>
     <dependencies>
-      <dependency id="ComponentFactory.Krypton.Toolkit" version="6.0.0-pre001" />
+      <dependency id="ComponentFactory.Krypton.Toolkit" version="6.0.0-pre002" />
     </dependencies>
   </metadata>
   <files>
-    <file src="..\..\Bin\ComponentFactory.Krypton.Navigator.dll" target="lib\net47\ComponentFactory.Krypton.Navigator.dll" />
-    <file src="..\..\Bin\ComponentFactory.Krypton.Navigator.xml" target="lib\net47\ComponentFactory.Krypton.Navigator.xml" />
+    <file src="..\..\Bin\ComponentFactory.Krypton.Navigator.dll" target="lib\net461\ComponentFactory.Krypton.Navigator.dll" />
+    <file src="..\..\Bin\ComponentFactory.Krypton.Navigator.xml" target="lib\net461\ComponentFactory.Krypton.Navigator.xml" />
   </files>
 </package>
