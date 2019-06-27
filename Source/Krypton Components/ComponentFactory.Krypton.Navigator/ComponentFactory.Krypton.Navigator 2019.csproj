@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ComponentFactory.Krypton.Navigator</RootNamespace>
-    <AssemblyName>Krypton Navigator</AssemblyName>
+    <AssemblyName>ComponentFactory.Krypton.Navigator</AssemblyName>
     <ApplicationIcon>Krypton.ico</ApplicationIcon>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>StrongKrypton.snk</AssemblyOriginatorKeyFile>
@@ -54,7 +54,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Krypton Navigator.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\ComponentFactory.Krypton.Navigator.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -65,7 +65,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Krypton Navigator.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\ComponentFactory.Krypton.Navigator.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>

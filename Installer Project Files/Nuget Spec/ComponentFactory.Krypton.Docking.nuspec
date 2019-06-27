@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>ComponentFactory.Krypton.Docking</id>
+    <version>6.0.745</version>
+    <title>Krypton Docking Library</title>
+    <authors>Peter William Wagner &amp; Simon Coghlan</authors>
+    <owners>Peter William Wagner &amp; Simon Coghlan</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">BSD-3-Clause</license>
+    <projectUrl>https://github.com/mb3m/Krypton-NET-5.470</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/mb3m/Krypton-NET-5.470/master/Assets/PNG/Square Design/Main Icon/64 x 64/Square Design 64 x 64 New Green.png</iconUrl>
+    <description>A update to Component factory's krypton toolkit to support the .NET 4.7 framework.</description>
+    <summary>A update to Component factory's krypton toolkit to support the .NET 4.7 framework.</summary>
+    <releaseNotes>Get updates here: https://github.com/mb3m/Krypton-NET-5.470</releaseNotes>
+    <copyright>ComponentFactory</copyright>
+    <language>en-US</language>
+    <tags>Krypton, ComponentFactory, WinForms, Themes, Controls, DataGrid, Ribbon, Workspace, Tabs, .Net, Docking</tags>
+    <dependencies>
+      <dependency id="ComponentFactory.Krypton.Navigator" version="6.0.760" />
+      <dependency id="ComponentFactory.Krypton.Toolkit" version="6.0.1251" />
+      <dependency id="ComponentFactory.Krypton.Workspace" version="6.0.713" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\Bin\ComponentFactory.Krypton.Docking.dll" target="lib\net461\ComponentFactory.Krypton.Docking.dll" />
+    <file src="..\..\Bin\ComponentFactory.Krypton.Docking.xml" target="lib\net461\ComponentFactory.Krypton.Docking.xml" />
+  </files>
+</package>

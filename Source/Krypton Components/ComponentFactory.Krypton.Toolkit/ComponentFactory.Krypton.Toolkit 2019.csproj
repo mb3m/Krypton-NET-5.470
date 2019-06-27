@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ComponentFactory.Krypton.Toolkit</RootNamespace>
-    <AssemblyName>Krypton Toolkit</AssemblyName>
+    <AssemblyName>ComponentFactory.Krypton.Toolkit</AssemblyName>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>StrongKrypton.snk</AssemblyOriginatorKeyFile>
     <ApplicationIcon>Krypton.ico</ApplicationIcon>
@@ -57,7 +57,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Krypton Toolkit.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\ComponentFactory.Krypton.Toolkit.xml</DocumentationFile>
     <CodeAnalysisRules>
     </CodeAnalysisRules>
     <Prefer32Bit>false</Prefer32Bit>
@@ -70,7 +70,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Krypton Toolkit.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\ComponentFactory.Krypton.Toolkit.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>

@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ComponentFactory.Krypton.Ribbon</RootNamespace>
-    <AssemblyName>Krypton Ribbon</AssemblyName>
+    <AssemblyName>ComponentFactory.Krypton.Ribbon</AssemblyName>
     <ApplicationIcon>Krypton.ico</ApplicationIcon>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>StrongKrypton.snk</AssemblyOriginatorKeyFile>
@@ -52,7 +52,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Krypton Ribbon.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\ComponentFactory.Krypton.Ribbon.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <LangVersion>default</LangVersion>
   </PropertyGroup>
@@ -63,7 +63,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Krypton Ribbon.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\ComponentFactory.Krypton.Ribbon.xml</DocumentationFile>
     <Prefer32Bit>false</Prefer32Bit>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>

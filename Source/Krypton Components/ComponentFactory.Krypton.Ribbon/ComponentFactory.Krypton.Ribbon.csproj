@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>ComponentFactory.Krypton.Ribbon</AssemblyName>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>ComponentFactory.Krypton.Ribbon</RootNamespace>
+    <Product>Krypton Ribbon</Product>
+    <ApplicationIcon>Krypton.ico</ApplicationIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../ComponentFactory.Krypton.Toolkit/ComponentFactory.Krypton.Toolkit.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="View Layout Demo\**" />
+    <Compile Remove="View Layout Install\**" />
+    <EmbeddedResource Remove="View Layout Demo\**" />
+    <EmbeddedResource Remove="View Layout Install\**" />
+    <None Remove="View Layout Demo\**" />
+    <None Remove="View Layout Install\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ToolboxBitmaps\*.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ComponentFactory.Krypton.Toolkit\General\PlatformInvoke.cs" Link="General\PlatformInvoke.cs" />
+  </ItemGroup>
+  
+</Project>
