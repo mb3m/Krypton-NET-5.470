@@ -1,15 +1,16 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <AssemblyName>ComponentFactory.Krypton.Toolkit</AssemblyName>
-    <TargetFramework>net461</TargetFramework>
+    <TargetFrameworks>net461;netcoreapp3.0</TargetFrameworks>
     <RootNamespace>ComponentFactory.Krypton.Toolkit</RootNamespace>
     <Product>Krypton Toolkit</Product>
     <ApplicationIcon>Krypton.ico</ApplicationIcon>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
   
-  <ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net461'">
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Design" />
