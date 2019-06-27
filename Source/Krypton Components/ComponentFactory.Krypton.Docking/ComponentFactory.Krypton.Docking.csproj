@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>ComponentFactory.Krypton.Docking</AssemblyName>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>ComponentFactory.Krypton.Docking</RootNamespace>
+    <Product>Krypton Docking</Product>
+    <ApplicationIcon>Krypton.ico</ApplicationIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../ComponentFactory.Krypton.Toolkit/ComponentFactory.Krypton.Toolkit.csproj" />
+    <ProjectReference Include="../ComponentFactory.Krypton.Navigator/ComponentFactory.Krypton.Navigator.csproj" />
+    <ProjectReference Include="../ComponentFactory.Krypton.Workspace/ComponentFactory.Krypton.Workspace.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ToolboxBitmaps\*.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="build/**/*.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ToolboxBitmaps\*.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ComponentFactory.Krypton.Toolkit\General\PlatformInvoke.cs" Link="General\PlatformInvoke.cs" />
+  </ItemGroup>
+  
+</Project>
