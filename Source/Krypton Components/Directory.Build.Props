@@ -1,0 +1,23 @@
+<Project>
+	<PropertyGroup>
+		<Version>6.0.0</Version>
+		<Authors>Peter William Wagner &amp; Simon Coghlan</Authors>
+		<Description>A update to Component factory's krypton toolkit to support the .NET 4.7 framework.</Description>
+		<Copyright>© Component Factory Pty Ltd, 2006-2019. Then modifications by Peter Wagner (aka Wagnerp) &amp; Simon Coghlan (aka Smurf-IV) 2017-2019. All rights reserved.</Copyright>
+    <Company>Component Factory Pty Ltd, Peter Wagner (aka Wagnerp) &amp; Simon Coghlan (aka Smurf-IV)</Company>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/mb3m/Krypton-NET-5.470</PackageProjectUrl>
+		<PackageIconUrl>https://raw.githubusercontent.com/mb3m/Krypton-NET-5.470/master/Assets/PNG/Square Design/Main Icon/64 x 64/Square Design 64 x 64 New Green.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/mb3m/Krypton-NET-5.470</RepositoryUrl>
+		<PackageTags>Krypton, ComponentFactory, WinForms, Themes, Controls, DataGrid, Ribbon, Workspace, Tabs, .Net, Docking</PackageTags>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+	</PropertyGroup>
+
+  <!--
+  Necessary hack to support multiple csproj with mixed SDK in the same directory.
+  See https://github.com/NuGet/Home/issues/4463#issuecomment-404806889
+  -->
+  <PropertyGroup>
+    <MSBuildProjectExtensionsPath>obj\$(MSBuildProjectName)\</MSBuildProjectExtensionsPath>
+  </PropertyGroup>
+</Project>

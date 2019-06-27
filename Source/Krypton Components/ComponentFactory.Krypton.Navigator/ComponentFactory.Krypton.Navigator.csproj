@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>ComponentFactory.Krypton.Navigator</AssemblyName>
+    <TargetFramework>net461</TargetFramework>
+    <RootNamespace>ComponentFactory.Krypton.Navigator</RootNamespace>
+    <Product>Krypton Navigator</Product>
+    <ApplicationIcon>Krypton.ico</ApplicationIcon>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../ComponentFactory.Krypton.Toolkit/ComponentFactory.Krypton.Toolkit.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ToolboxBitmaps\*.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="build/**/*.*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ToolboxBitmaps\*.bmp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\ComponentFactory.Krypton.Toolkit\General\PlatformInvoke.cs" Link="General\PlatformInvoke.cs" />
+  </ItemGroup>
+  
+</Project>
